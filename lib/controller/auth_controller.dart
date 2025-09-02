@@ -1,19 +1,4 @@
-// // import 'package:get/get.dart';
-// // import 'package:firebase_auth/firebase_auth.dart';
 
-// // class AuthController extends GetxController {
-// //   final FirebaseAuth _auth = FirebaseAuth.instance;
-
-// //   Future<bool> login(String email, String password) async {
-// //     try {
-// //       await _auth.signInWithEmailAndPassword(email: email, password: password);
-// //       return true;
-// //     } catch (e) {
-// //       print('Login failed: $e');
-// //       return false;
-// //     }
-// //   }
-// // }
 import 'package:flutter_doctor_appointment_app_new_clean/screens/AuthGate.dart';
 import 'package:get/get.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
