@@ -31,7 +31,7 @@ class DoctorHomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // 🔎 Search bar
+              //  Search bar
               GestureDetector(
                 onTap: () {
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -67,7 +67,7 @@ class DoctorHomeScreen extends StatelessWidget {
               ),
               SizedBox(height: height * 0.02),
 
-              // 🖼 Poster
+              // Poster
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.asset(
@@ -78,7 +78,7 @@ class DoctorHomeScreen extends StatelessWidget {
               ),
               SizedBox(height: height * 0.03),
 
-              // 👨‍⚕️ Top Doctors
+          
               Text(
                 "Top Doctors",
 
