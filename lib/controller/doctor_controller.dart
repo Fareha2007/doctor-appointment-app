@@ -21,22 +21,6 @@ class DoctorController extends GetxController {
     final startOfToday = DateTime(now.year, now.month, now.day);
     final endOfToday = DateTime(now.year, now.month, now.day, 23, 59, 59);
 
-    // FirebaseFirestore.instance
-    // .collection('appointments')
-    // .where('doctorId', isEqualTo: doctorId)
-    // .where(
-    //   'appointmentTime',
-    //   isGreaterThanOrEqualTo: Timestamp.fromDate(startOfToday),
-    // )
-    // .where(
-    //   'appointmentTime',
-    //   isLessThanOrEqualTo: Timestamp.fromDate(endOfToday),
-    // )
-    // .orderBy('appointmentTime')
-    // .snapshots()
-    // .listen((snapshot) {
-    //   todaysAppointments.value = snapshot.docs;
-    // });
     FirebaseFirestore.instance
         .collection('appointments')
         .where('doctorId', isEqualTo: doctorId)
