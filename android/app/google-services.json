@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "717056330907",
+    "project_id": "doctorappointmentapp-fbf91",
+    "storage_bucket": "doctorappointmentapp-fbf91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717056330907:android:4b96ec97a63fec7ac98a3e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_doctor_appointment_app_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717056330907-pcglq9qfht46422cbuvi2gajrbecocq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHfl6NFqr0GcLdyXzZli6w-RDQbOJt8yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717056330907-pcglq9qfht46422cbuvi2gajrbecocq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717056330907:android:81bb130752a11b6dc98a3e",
+        "android_client_info": {
+          "package_name": "com.example.flutter_doctor_appointment_app_new_clean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717056330907-pcglq9qfht46422cbuvi2gajrbecocq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHfl6NFqr0GcLdyXzZli6w-RDQbOJt8yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717056330907-pcglq9qfht46422cbuvi2gajrbecocq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

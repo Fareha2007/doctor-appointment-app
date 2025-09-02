@@ -1,0 +1,54 @@
+name: flutter_doctor_appointment_app_new_clean
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  image_picker: ^1.0.7
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  table_calendar: ^3.2.0
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  font_awesome_flutter: ^10.7.0   
+  #image_picker: ^1.1.1
+  path: ^1.8.0
+  http: ^1.2.1
+  permission_handler: ^11.3.1
+  geolocator: ^12.0.0
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/Logo2.png"
+  adaptive_icon_background: "#FF5722"
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/doctor.png
+    - assets/images/reviewer.jpeg
+    - assets/images/doctor2.png
+    - assets/images/poster.png
+    - assets/images/poster2.png
+    - assets/images/reviewer2.png
+    - assets/images/Logo2.png
+    - assets/images/default.png
